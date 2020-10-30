@@ -1,0 +1,10 @@
+pessoa1 23 1.85
+pessoa2 56 1.80
+pessoa3 82 1.75
+pessoa4 12 1.70
+pessoa5 45 1.65
+pessoa6 28 2.00
+pessoa7 46 1.95
+pessoa8 05 1.90
+pessoa9 59 1.60
+pessoa10 64 1.75

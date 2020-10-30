@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1497935149 source:b:\trabalhos da faculdade\gbc034 - aed2\insetionsort\insertionsort.c
+	<stdio.h>
+	<stdlib.h>
+	"insertionsort.h"
+
+1497935362 b:\trabalhos da faculdade\gbc034 - aed2\insetionsort\insertionsort.h
+

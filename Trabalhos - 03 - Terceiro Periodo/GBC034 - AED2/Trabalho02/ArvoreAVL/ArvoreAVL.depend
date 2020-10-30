@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1501161821 source:b:\trabalhos da faculdade\gbc034 - aed2\arvoreavl\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arvore_avl.h"
+
+1501158849 b:\trabalhos da faculdade\gbc034 - aed2\arvoreavl\arvore_avl.h
+
+1501160269 source:b:\trabalhos da faculdade\gbc034 - aed2\arvoreavl\arvore_avl.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arvore_avl.h"
+
+1501503708 source:b:\trabalhos da faculdade\gbc034 - aed2\trabalho02\arvoreavl\arvore_avl.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"arvore_avl.h"
+
+1501502475 b:\trabalhos da faculdade\gbc034 - aed2\trabalho02\arvoreavl\arvore_avl.h
+
+1501502947 source:b:\trabalhos da faculdade\gbc034 - aed2\trabalho02\arvoreavl\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"arvore_avl.h"
+

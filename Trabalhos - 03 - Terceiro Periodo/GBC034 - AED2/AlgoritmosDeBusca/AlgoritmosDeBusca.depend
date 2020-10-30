@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1501034849 source:b:\trabalhos da faculdade\gbc034 - aed2\algoritmosdebusca\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"algoritmos_de_busca.h"
+
+1501063110 b:\trabalhos da faculdade\gbc034 - aed2\algoritmosdebusca\algoritmos_de_busca.h
+
+1501034905 source:b:\trabalhos da faculdade\gbc034 - aed2\algoritmosdebusca\algoritmos_de_busca.c
+	<stdio.h>
+	<stdlib.h>
+	"algoritmos_de_busca.h"
+

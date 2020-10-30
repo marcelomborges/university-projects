@@ -1,0 +1,43 @@
+LEXEMA TOKEN VALOR_DO_ATRIBUTO
+INICIO INICIO -
+FIM FIM -
+(Qualquer) id id posicao na tabela de símbolos
+; final -
+( abre_parêntesis -
+) fecha_parêntesis -
+[ abre_colchete -
+] fecha_colchete -
+= atribuicao -
+SE SE -
+SENAO SENAO -
+ENQUANTO ENQUANTO -
+FACA FACA -
+PARA PARA -
+== igual -
+<> diferente -
+< menor -
+> maior -
+>= maior_igual -
+<= menor_igual -
+NOT NOT -
+AND AND -
+OR OR -
++ adição -
+- subtração -
+* multiplicação -
+/ divisão -
+INTEIRO int valor inteiro
+NUMERO_REAL real valor real
+CARACTERE char qualquer letra
+STRING conj_char conjunto de caracteres
+(Qualquer) WS - -
+
+id -> STRING
+INTEIRO -> (-)?[0-9]+
+NUMERO_REAL -> (-)?[0-9]+.[0-9]+
+CARACTERE -> [a-zA-Z]
+STRING -> CARACTERE*
+WS -> [ \t\n]*
+
+As expressões regulares dos demais tokens são essencialmente a concatenação de cada caractere do token, pois eles irão aparecer no código exatamente desta forma.
+

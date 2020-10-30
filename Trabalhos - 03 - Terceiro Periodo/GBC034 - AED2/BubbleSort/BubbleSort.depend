@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1497933448 source:b:\trabalhos da faculdade\gbc034 - aed2\bubblesort\bubblesort.c
+	<stdio.h>
+	<stdlib.h>
+	"bubblesort.h"
+
+1497933494 b:\trabalhos da faculdade\gbc034 - aed2\bubblesort\bubblesort.h
+
+1497933494 source:b:\trabalhos da faculdade\gbc034 - aed2\bubblesort\main.c
+	<stdio.h>
+	<stdlib.h>
+	"bubblesort.h"
+

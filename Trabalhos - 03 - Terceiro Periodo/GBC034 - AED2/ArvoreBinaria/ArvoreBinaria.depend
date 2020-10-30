@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1501111835 source:b:\trabalhos da faculdade\gbc034 - aed2\arvorebinaria\arvore_binaria.c
+	<stdio.h>
+	<stdlib.h>
+	"arvore_binaria.h"
+
+1501111835 b:\trabalhos da faculdade\gbc034 - aed2\arvorebinaria\arvore_binaria.h
+
+1501111842 source:b:\trabalhos da faculdade\gbc034 - aed2\arvorebinaria\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arvore_binaria.h"
+

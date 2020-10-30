@@ -1,0 +1,17 @@
+programa
+        inicio
+                00
+                int b;
+                int c;
+
+                a = 2;
+                b = 1;
+
+                se(a>b)
+                        inicio
+                                int d;
+                                d = a + b;
+                        fim
+        fim
+
+        

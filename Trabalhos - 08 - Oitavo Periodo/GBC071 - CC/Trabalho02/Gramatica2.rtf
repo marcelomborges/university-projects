@@ -1,0 +1,118 @@
+{\rtf1\ansi\uc0\deff0{\fonttbl{\f0\fmodern\fprq1\fcharset0;}}{\colortbl;\red187\green187\blue187;\red64\green128\blue128;\red188\green122\blue0;\red0\green128\blue0;\red176\green0\blue64;\red102\green102\blue102;\red170\green34\blue255;\red0\green0\blue255;\red210\green65\blue58;\red25\green23\blue124;\red136\green0\blue0;\red160\green160\blue0;\red153\green153\blue153;\red125\green144\blue41;\red186\green33\blue33;\red187\green102\blue136;\red187\green102\blue34;\red0\green0\blue128;\red128\green0\blue128;\red160\green0\blue0;\red0\green160\blue0;\red255\green0\blue0;\red136\green136\blue136;\red0\green68\blue221;}\f0 programa\par
+   : bloco+\par
+   ;\par
+\par
+bloco\par
+   : 'inicio' declaracao comando 'fim'\par
+   ; \par
+\par
+declaracao\par
+   : tipo id ';'\par
+   | tipo '[' tamanho ']' id ';'\par
+   | tipo (id ',')* id ';'\par
+   | tipo '[' tamanho ']' (id ',')* id ';'\par
+   ;\par
+\par
+tipo\par
+   : int\par
+   | char\par
+   | real\par
+   ;\par
+\par
+tamanho\par
+   : int\par
+   ;\par
+\par
+comando\par
+   : id '=' expressao ';'\par
+   | id '[' posicao ']' '=' expressao ';'\par
+   | 'se' condicao_parentesis bloco\par
+   | 'se' condicao_parentesis bloco 'else' bloco\par
+   | 'enquanto' condicao_parentesis bloco\par
+   | 'fa{\u231}a' bloco 'enquanto' condicao_parentesis ';'\par
+   | 'para' condicao_para bloco\par
+   ;\par
+\par
+condicao_parentesis\par
+   : '(' condicao ')'\par
+   ;\par
+\par
+condicao\par
+   : arg\par
+   | arg '==' arg\par
+   | arg '<>' arg\par
+   | arg '<' arg\par
+   | arg '>' arg\par
+   | arg '>=' arg\par
+   | arg '<=' arg\par
+   | 'not' condicao_parentesis\par
+   | condicao_parentesis 'and' condicao_parentesis\par
+   | condicao_parentesis 'or' condicao_parentesis\par
+   ;\par
+\par
+expressao_parentesis\par
+   : '(' expressao ')'\par
+   ;\par
+\par
+expressao\par
+   : arg\par
+   | arg '+' expressao_parentesis\par
+   | arg '-' expressao_parentesis\par
+   | arg '*' expressao_parentesis\par
+   | arg '/' expressao_parentesis\par
+   ;\par
+\par
+posicao\par
+   : int\par
+   ;\par
+\par
+condicao_para\par
+   : '(' id '=' expressao ';' condicao ';' id '=' expressao ')'\par
+   ;\par
+\par
+arg\par
+   : id\par
+   | int\par
+   | real\par
+   | condicao_parentesis\par
+   | expressao_parentesis\par
+   ;\par
+\par
+id\par
+   : STRING\par
+   ;\par
+\par
+int\par
+   : INTEIRO\par
+   ;\par
+\par
+char\par
+   : CARACTERE\par
+   ;\par
+   \par
+real\par
+   : NUMERO_REAL;\par
+   ;\par
+\par
+STRING\par
+   : [a-zA-Z]+\par
+   ;\par
+\par
+INTEIRO\par
+   : [0-9]+\par
+   | '-' [0-9]+\par
+   ;\par
+\par
+CARACTERE\par
+   : [a-zA-Z]\par
+   ;\par
+\par
+NUMERO_REAL\par
+   : [0-9]+ '.' [0-9]+\par
+   | '-' [0-9]+ '.' [0-9]+\par
+   ;\par
+\par
+WS\par
+   : [ \\n\\t] -> skip\par
+   ;\par
+}

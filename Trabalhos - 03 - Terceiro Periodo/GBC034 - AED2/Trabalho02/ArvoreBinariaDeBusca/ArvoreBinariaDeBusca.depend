@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1501148403 source:b:\trabalhos da faculdade\gbc034 - aed2\arvorebinariadebusca\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arvore_bb.h"
+
+1501143682 b:\trabalhos da faculdade\gbc034 - aed2\arvorebinariadebusca\arvore_bb.h
+
+1501143652 source:b:\trabalhos da faculdade\gbc034 - aed2\arvorebinariadebusca\arvore_bb.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arvore_bb.h"
+
+1501344415 source:b:\trabalhos da faculdade\gbc034 - aed2\trabalho02\arvorebinariadebusca\arvore_bb.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arvore_bb.h"
+
+1501143682 b:\trabalhos da faculdade\gbc034 - aed2\trabalho02\arvorebinariadebusca\arvore_bb.h
+
+1501342790 source:b:\trabalhos da faculdade\gbc034 - aed2\trabalho02\arvorebinariadebusca\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arvore_bb.h"
+

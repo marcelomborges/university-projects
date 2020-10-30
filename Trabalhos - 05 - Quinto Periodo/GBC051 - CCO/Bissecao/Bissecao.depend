@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1522156578 source:b:\trabalhos da faculdade\trabalhos - 05 - quinto período\bissecao\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"bissecao.h"
+
+1522152985 b:\trabalhos da faculdade\trabalhos - 05 - quinto período\bissecao\bissecao.h
+
+1522156377 source:b:\trabalhos da faculdade\trabalhos - 05 - quinto período\bissecao\bissecao.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"bissecao.h"
+
+1522156578 source:b:\trabalhos da faculdade\trabalhos - 05 - quinto período\gbc051 - cco\bissecao\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"bissecao.h"
+
+1522152985 b:\trabalhos da faculdade\trabalhos - 05 - quinto período\gbc051 - cco\bissecao\bissecao.h
+

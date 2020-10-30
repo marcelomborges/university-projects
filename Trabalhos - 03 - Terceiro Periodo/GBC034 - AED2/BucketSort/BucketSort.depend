@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1497992034 source:b:\trabalhos da faculdade\gbc034 - aed2\bucketsort\main.c
+	<stdio.h>
+	<stdlib.h>
+	"bucketsort.h"
+
+1497992051 b:\trabalhos da faculdade\gbc034 - aed2\bucketsort\bucketsort.h
+
+1497992696 source:b:\trabalhos da faculdade\gbc034 - aed2\bucketsort\bucketsort.c
+	<stdio.h>
+	<stdlib.h>
+	"bucketsort.h"
+

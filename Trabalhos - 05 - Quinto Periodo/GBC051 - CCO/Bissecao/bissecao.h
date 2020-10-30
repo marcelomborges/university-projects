@@ -1,0 +1,6 @@
+#ifndef BISSECAO_H_INCLUDED
+#define BISSECAO_H_INCLUDED
+
+
+
+#endif // BISSECAO_H_INCLUDED

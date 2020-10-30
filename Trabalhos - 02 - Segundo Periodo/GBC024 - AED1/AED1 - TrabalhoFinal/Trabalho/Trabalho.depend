@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1480793765 source:c:\users\carrefuor\desktop\trabalhos da faculdade\gbc024 - algoritmos e estrutura de dados 1\trabalho de aed1\trabalho\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	"trabalho.h"
+
+1480791769 c:\users\carrefuor\desktop\trabalhos da faculdade\gbc024 - algoritmos e estrutura de dados 1\trabalho de aed1\trabalho\trabalho.h
+
+1480903102 source:c:\users\carrefuor\desktop\trabalhos da faculdade\gbc024 - algoritmos e estrutura de dados 1\trabalho de aed1\trabalho\trabalho.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	"trabalho.h"
+
+1480790165 source:b:\trabalhos da faculdade\gbc024 - aed1\aed1 - trabalhofinal\trabalho\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	"trabalho.h"
+
+1480788169 b:\trabalhos da faculdade\gbc024 - aed1\aed1 - trabalhofinal\trabalho\trabalho.h
+
+1481146914 source:b:\trabalhos da faculdade\gbc024 - aed1\aed1 - trabalhofinal\trabalho\trabalho.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	"trabalho.h"
+
+1480790165 source:b:\trabalhos da faculdade\trabalhos - 02 - segundo período\gbc024 - aed1\aed1 - trabalhofinal\trabalho\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	"trabalho.h"
+
+1480788169 b:\trabalhos da faculdade\trabalhos - 02 - segundo período\gbc024 - aed1\aed1 - trabalhofinal\trabalho\trabalho.h
+
+1481146914 source:b:\trabalhos da faculdade\trabalhos - 02 - segundo período\gbc024 - aed1\aed1 - trabalhofinal\trabalho\trabalho.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	"trabalho.h"
+

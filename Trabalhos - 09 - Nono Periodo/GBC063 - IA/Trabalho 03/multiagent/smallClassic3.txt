@@ -1,0 +1,54 @@
+Pacman emerges victorious! Score: 719
+Pacman emerges victorious! Score: 856
+Pacman emerges victorious! Score: 728
+Pacman emerges victorious! Score: -741
+Pacman emerges victorious! Score: 764
+Pacman emerges victorious! Score: 165
+Pacman emerges victorious! Score: 1098
+Pacman emerges victorious! Score: -100
+Pacman emerges victorious! Score: 557
+Pacman emerges victorious! Score: 1134
+Pacman emerges victorious! Score: 1046
+Pacman emerges victorious! Score: 548
+Pacman emerges victorious! Score: 795
+Pacman emerges victorious! Score: 919
+Pacman emerges victorious! Score: 374
+Pacman emerges victorious! Score: 826
+Pacman emerges victorious! Score: 546
+Pacman emerges victorious! Score: -606
+Pacman emerges victorious! Score: 1099
+Pacman emerges victorious! Score: 285
+Pacman emerges victorious! Score: 381
+Pacman emerges victorious! Score: 1138
+Pacman emerges victorious! Score: 684
+Pacman emerges victorious! Score: 720
+Pacman emerges victorious! Score: -709
+Pacman emerges victorious! Score: 342
+Pacman emerges victorious! Score: 855
+Pacman emerges victorious! Score: 797
+Pacman emerges victorious! Score: 1258
+Pacman emerges victorious! Score: 910
+Pacman emerges victorious! Score: -307
+Pacman emerges victorious! Score: 500
+Pacman emerges victorious! Score: 1144
+Pacman emerges victorious! Score: 1048
+Pacman emerges victorious! Score: 563
+Pacman emerges victorious! Score: 875
+Pacman emerges victorious! Score: -231
+Pacman emerges victorious! Score: 573
+Pacman emerges victorious! Score: -598
+Pacman emerges victorious! Score: -7
+Pacman emerges victorious! Score: -43
+Pacman emerges victorious! Score: 755
+Pacman emerges victorious! Score: 191
+Pacman emerges victorious! Score: 427
+Pacman emerges victorious! Score: 960
+Pacman emerges victorious! Score: 762
+Pacman emerges victorious! Score: 960
+Pacman emerges victorious! Score: 489
+Pacman emerges victorious! Score: 165
+Pacman emerges victorious! Score: 712
+Average Score: 526.52
+Scores:        719.0, 856.0, 728.0, -741.0, 764.0, 165.0, 1098.0, -100.0, 557.0, 1134.0, 1046.0, 548.0, 795.0, 919.0, 374.0, 826.0, 546.0, -606.0, 1099.0, 285.0, 381.0, 1138.0, 684.0, 720.0, -709.0, 342.0, 855.0, 797.0, 1258.0, 910.0, -307.0, 500.0, 1144.0, 1048.0, 563.0, 875.0, -231.0, 573.0, -598.0, -7.0, -43.0, 755.0, 191.0, 427.0, 960.0, 762.0, 960.0, 489.0, 165.0, 712.0
+Win Rate:      50/50 (1.00)
+Record:        Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win, Win

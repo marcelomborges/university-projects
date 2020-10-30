@@ -1,0 +1,51 @@
+INICIAL
+   : 'programa' BLOCO
+
+BLOCO
+   : 'inicio' DECLARACOES COMANDOS 'fim'
+   ; 
+
+DECLARACOES
+   : TIPO id ';' DECLARACOES
+   | £
+   ;
+
+TIPO
+   : int
+   ;
+
+COMANDOS
+   : id '=' EXPRESSAO ';' COMANDOS
+   | 'se' CONDICAO BLOCO COMANDOS
+   | 'enquanto' CONDICAO BLOCO COMANDOS
+   | £
+   ;
+
+CONDICAO
+   : '(' ARG OP_RELACIONAL ARG ')'
+   ;
+
+EXPRESSAO
+   : ARG OP_ARITMETICO ARG
+   ;
+
+OP_RELACIONAL
+   : ==
+   | <>
+   | <
+   | >
+   | <=
+   | >=
+   ;
+
+OP_ARITMETICO
+   : +
+   | -
+   | *
+   | /
+   ;
+
+ARG
+   : id
+   | constante
+   ;

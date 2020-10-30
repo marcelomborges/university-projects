@@ -1,0 +1,54 @@
+Pacman emerges victorious! Score: -552
+Pacman emerges victorious! Score: 777
+Pacman died! Score: -384
+Pacman died! Score: -214
+Pacman died! Score: -162
+Pacman emerges victorious! Score: -148
+Pacman emerges victorious! Score: 30
+Pacman emerges victorious! Score: -1704
+Pacman emerges victorious! Score: 258
+Pacman died! Score: -188
+Pacman emerges victorious! Score: 480
+Pacman died! Score: -298
+Pacman died! Score: -184
+Pacman died! Score: -226
+Pacman emerges victorious! Score: -397
+Pacman emerges victorious! Score: -780
+Pacman died! Score: -532
+Pacman died! Score: -210
+Pacman emerges victorious! Score: 244
+Pacman died! Score: -222
+Pacman emerges victorious! Score: -374
+Pacman died! Score: -184
+Pacman died! Score: -178
+Pacman died! Score: -260
+Pacman died! Score: -178
+Pacman died! Score: -548
+Pacman died! Score: -464
+Pacman died! Score: -512
+Pacman died! Score: -178
+Pacman emerges victorious! Score: 359
+Pacman emerges victorious! Score: 365
+Pacman emerges victorious! Score: -2520
+Pacman died! Score: -236
+Pacman emerges victorious! Score: 335
+Pacman died! Score: -282
+Pacman emerges victorious! Score: -711
+Pacman died! Score: -236
+Pacman died! Score: -330
+Pacman died! Score: -326
+Pacman emerges victorious! Score: -674
+Pacman emerges victorious! Score: 148
+Pacman emerges victorious! Score: 271
+Pacman died! Score: -180
+Pacman died! Score: -278
+Pacman emerges victorious! Score: -358
+Pacman died! Score: -132
+Pacman died! Score: -674
+Pacman emerges victorious! Score: 747
+Pacman died! Score: -228
+Pacman died! Score: -150
+Average Score: -247.56
+Scores:        -552.0, 777.0, -384.0, -214.0, -162.0, -148.0, 30.0, -1704.0, 258.0, -188.0, 480.0, -298.0, -184.0, -226.0, -397.0, -780.0, -532.0, -210.0, 244.0, -222.0, -374.0, -184.0, -178.0, -260.0, -178.0, -548.0, -464.0, -512.0, -178.0, 359.0, 365.0, -2520.0, -236.0, 335.0, -282.0, -711.0, -236.0, -330.0, -326.0, -674.0, 148.0, 271.0, -180.0, -278.0, -358.0, -132.0, -674.0, 747.0, -228.0, -150.0
+Win Rate:      21/50 (0.42)
+Record:        Win, Win, Loss, Loss, Loss, Win, Win, Win, Win, Loss, Win, Loss, Loss, Loss, Win, Win, Loss, Loss, Win, Loss, Win, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Loss, Win, Win, Win, Loss, Win, Loss, Win, Loss, Loss, Loss, Win, Win, Win, Loss, Loss, Win, Loss, Loss, Win, Loss, Loss

@@ -1,0 +1,118 @@
+{\rtf1\ansi\uc0\deff0{\fonttbl{\f0\fmodern\fprq1\fcharset0;}}{\colortbl;\red187\green187\blue187;\red64\green128\blue128;\red188\green122\blue0;\red0\green128\blue0;\red176\green0\blue64;\red102\green102\blue102;\red170\green34\blue255;\red0\green0\blue255;\red210\green65\blue58;\red25\green23\blue124;\red136\green0\blue0;\red160\green160\blue0;\red153\green153\blue153;\red125\green144\blue41;\red186\green33\blue33;\red187\green102\blue136;\red187\green102\blue34;\red0\green0\blue128;\red128\green0\blue128;\red160\green0\blue0;\red0\green160\blue0;\red255\green0\blue0;\red136\green136\blue136;\red0\green68\blue221;}\f0 {\cf4\b programa}\par
+   {\chbrdr\chcfpat22 :} {\cf4\b bloco}{\chbrdr\chcfpat22 +}\par
+   {\chbrdr\chcfpat22 ;}\par
+\par
+{\cf4\b bloco}\par
+   {\chbrdr\chcfpat22 :} {\chbrdr\chcfpat22 '}{\cf4\b inicio}{\chbrdr\chcfpat22 '} {\cf4\b declaracao comando }{\chbrdr\chcfpat22 '}{\cf4\b fim}{\chbrdr\chcfpat22 '}\par
+   {\chbrdr\chcfpat22 ;} \par
+\par
+{\cf4\b declaracao}\par
+   {\chbrdr\chcfpat22 :} {\cf4\b tipo id }{\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 ;}{\chbrdr\chcfpat22 '}\par
+   {\chbrdr\chcfpat22 |} {\cf4\b tipo }{\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 [}{\chbrdr\chcfpat22 '} {\cf4\b tamanho }{\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 ]}{\chbrdr\chcfpat22 '} {\cf4\b id }{\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 ;}{\chbrdr\chcfpat22 '}\par
+   {\chbrdr\chcfpat22 |} {\cf4\b tipo }{\chbrdr\chcfpat22 (}{\cf4\b id }{\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 ,}{\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 )}{\chbrdr\chcfpat22 *} {\cf4\b id }{\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 ;}{\chbrdr\chcfpat22 '}\par
+   {\chbrdr\chcfpat22 |} {\cf4\b tipo }{\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 [}{\chbrdr\chcfpat22 '} {\cf4\b tamanho }{\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 ]}{\chbrdr\chcfpat22 '} {\chbrdr\chcfpat22 (}{\cf4\b id }{\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 ,}{\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 )}{\chbrdr\chcfpat22 *} {\cf4\b id }{\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 ;}{\chbrdr\chcfpat22 '}\par
+   {\chbrdr\chcfpat22 ;}\par
+\par
+{\cf4\b tipo}\par
+   {\chbrdr\chcfpat22 :} {\cf4\b int}\par
+   {\chbrdr\chcfpat22 |} {\cf4\b char}\par
+   {\chbrdr\chcfpat22 |} {\cf4\b real}\par
+   {\chbrdr\chcfpat22 ;}\par
+\par
+{\cf4\b tamanho}\par
+   {\chbrdr\chcfpat22 :} {\cf4\b int}\par
+   {\chbrdr\chcfpat22 ;}\par
+\par
+{\cf4\b comando}\par
+   {\chbrdr\chcfpat22 :} {\cf4\b id }{\chbrdr\chcfpat22 '}{\cf6 =}{\cf15 ' expressao '};{\chbrdr\chcfpat22 '}\par
+   {\chbrdr\chcfpat22 |} {\cf4\b id }{\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 [}{\chbrdr\chcfpat22 '} {\cf4\b posicao }{\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 ]}{\chbrdr\chcfpat22 '} {\chbrdr\chcfpat22 '}{\cf6 =}{\cf15 ' expressao '};{\chbrdr\chcfpat22 '}\par
+   {\chbrdr\chcfpat22 |} {\chbrdr\chcfpat22 '}{\cf4\b se}{\chbrdr\chcfpat22 '} {\cf4\b condicao_parentesis bloco}\par
+   {\chbrdr\chcfpat22 |} {\chbrdr\chcfpat22 '}{\cf4\b se}{\chbrdr\chcfpat22 '} {\cf4\b condicao_parentesis bloco }{\chbrdr\chcfpat22 '}{\cf4\b else}{\chbrdr\chcfpat22 '} {\cf4\b bloco}\par
+   {\chbrdr\chcfpat22 |} {\chbrdr\chcfpat22 '}{\cf4\b enquanto}{\chbrdr\chcfpat22 '} {\cf4\b condicao_parentesis bloco}\par
+   {\chbrdr\chcfpat22 |} {\chbrdr\chcfpat22 '}{\cf4\b fa{\u231}a}{\chbrdr\chcfpat22 '} {\cf4\b bloco }{\chbrdr\chcfpat22 '}{\cf4\b enquanto}{\chbrdr\chcfpat22 '} {\cf4\b condicao_parentesis }{\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 ;}{\chbrdr\chcfpat22 '}\par
+   {\chbrdr\chcfpat22 |} {\chbrdr\chcfpat22 '}{\cf4\b para}{\chbrdr\chcfpat22 '} {\cf4\b condicao_para bloco}\par
+   {\chbrdr\chcfpat22 ;}\par
+\par
+{\cf4\b condicao_parentesis}\par
+   {\chbrdr\chcfpat22 :} {\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 (}{\chbrdr\chcfpat22 '} {\cf4\b condicao }{\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 )}{\chbrdr\chcfpat22 '}\par
+   {\chbrdr\chcfpat22 ;}\par
+\par
+{\cf4\b condicao}\par
+   {\chbrdr\chcfpat22 :} {\cf4\b arg}\par
+   {\chbrdr\chcfpat22 |} {\cf4\b arg }{\chbrdr\chcfpat22 '}{\cf6 =}{\chbrdr\chcfpat22 =}{\cf15 ' arg\par
+   | arg '}{\chbrdr\chcfpat22 <}{\chbrdr\chcfpat22 >}{\cf15 ' arg\par
+   | arg '}{\chbrdr\chcfpat22 <}{\cf15 ' arg\par
+   | arg '}{\chbrdr\chcfpat22 >}{\cf15 ' arg\par
+   | arg '}{\chbrdr\chcfpat22 >}{\chbrdr\chcfpat22 =}{\cf15 ' arg\par
+   | arg '}{\chbrdr\chcfpat22 <}{\chbrdr\chcfpat22 =}{\cf15 ' arg\par
+   | '}{\cf4\b not}{\cf15 ' condicao_parentesis\par
+   | condicao_parentesis '}{\cf4\b and}{\cf15 ' condicao_parentesis\par
+   | condicao_parentesis '}{\cf4\b or}{\cf15 ' condicao_parentesis\par
+   ;\par
+\par
+expressao_parentesis\par
+   : '}({\cf15 ' expressao '}){\cf15 '\par
+   ;\par
+\par
+expressao\par
+   : arg\par
+   | arg '}{\chbrdr\chcfpat22 +}{\cf15 ' expressao_parentesis\par
+   | arg '}{\cf6 -}{\cf15 ' expressao_parentesis\par
+   | arg '}{\chbrdr\chcfpat22 *}{\cf15 ' expressao_parentesis\par
+   | arg '}{\chbrdr\chcfpat22 /}{\cf15 ' expressao_parentesis\par
+   ;\par
+\par
+posicao\par
+   : int\par
+   ;\par
+\par
+condicao_para\par
+   : '}({\cf15 ' id '}{\chbrdr\chcfpat22 =}{\cf15 ' expressao '};{\chbrdr\chcfpat22 '} {\cf4\b condicao }{\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 ;}{\chbrdr\chcfpat22 '} {\cf4\b id }{\chbrdr\chcfpat22 '}{\cf6 =}{\cf15 ' expressao '}){\cf15 '\par
+   ;\par
+\par
+arg\par
+   : id\par
+   | int\par
+   | real\par
+   | condicao_parentesis\par
+   | expressao_parentesis\par
+   ;\par
+\par
+id\par
+   : STRING\par
+   ;\par
+\par
+int\par
+   : INTEIRO\par
+   ;\par
+\par
+char\par
+   : CARACTERE\par
+   ;\par
+   \par
+real\par
+   : NUMERO_REAL;\par
+   ;\par
+\par
+STRING\par
+   : [a-zA-Z]+\par
+   ;\par
+\par
+INTEIRO\par
+   : [0-9]+\par
+   | '}{\cf6 -}{\cf15 ' [0-9]+\par
+   ;\par
+\par
+CARACTERE\par
+   : [a-zA-Z]\par
+   ;\par
+\par
+NUMERO_REAL\par
+   : [0-9]+ '}.{\chbrdr\chcfpat22 '} {\chbrdr\chcfpat22 [}{\chbrdr\chcfpat22 0}{\chbrdr\chcfpat22 -}{\chbrdr\chcfpat22 9}{\chbrdr\chcfpat22 ]}{\chbrdr\chcfpat22 +}\par
+   {\chbrdr\chcfpat22 |} {\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 -}{\chbrdr\chcfpat22 '} {\chbrdr\chcfpat22 [}{\chbrdr\chcfpat22 0}{\chbrdr\chcfpat22 -}{\chbrdr\chcfpat22 9}{\chbrdr\chcfpat22 ]}{\chbrdr\chcfpat22 +} {\chbrdr\chcfpat22 '}{\chbrdr\chcfpat22 .}{\chbrdr\chcfpat22 '} {\chbrdr\chcfpat22 [}{\chbrdr\chcfpat22 0}{\chbrdr\chcfpat22 -}{\chbrdr\chcfpat22 9}{\chbrdr\chcfpat22 ]}{\chbrdr\chcfpat22 +}\par
+   {\chbrdr\chcfpat22 ;}\par
+\par
+{\cf4\b WS}\par
+   {\chbrdr\chcfpat22 :} {\chbrdr\chcfpat22 [} {\chbrdr\chcfpat22 \\}{\cf4\b n}{\chbrdr\chcfpat22 \\}{\cf4\b t}{\chbrdr\chcfpat22 ]} {\chbrdr\chcfpat22 -}{\chbrdr\chcfpat22 >} {\cf4\b skip}\par
+   {\chbrdr\chcfpat22 ;}\par
+}

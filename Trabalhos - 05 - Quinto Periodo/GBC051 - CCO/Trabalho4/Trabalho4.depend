@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1530072670 source:b:\trabalhos da faculdade\trabalhos - 05 - quinto período\gbc051 - cco\trabalho4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"trabalho4.h"
+
+1530068490 b:\trabalhos da faculdade\trabalhos - 05 - quinto período\gbc051 - cco\trabalho4\trabalho4.h
+
+1530068490 source:b:\trabalhos da faculdade\trabalhos - 05 - quinto período\gbc051 - cco\trabalho4\trabalho4.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"trabalho4.h"
+

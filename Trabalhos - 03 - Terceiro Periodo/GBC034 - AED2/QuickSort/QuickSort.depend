@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1497988202 source:b:\trabalhos da faculdade\gbc034 - aed2\quicksort\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"quicksort.h"
+
+1497994059 b:\trabalhos da faculdade\gbc034 - aed2\quicksort\quicksort.h
+
+1497994103 source:b:\trabalhos da faculdade\gbc034 - aed2\quicksort\quicksort.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"quicksort.h"
+

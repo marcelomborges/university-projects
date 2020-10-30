@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1497991664 source:b:\trabalhos da faculdade\gbc034 - aed2\mergesort\main.c
+	<stdio.h>
+	<stdlib.h>
+	"mergesort.h"
+
+1497990357 b:\trabalhos da faculdade\gbc034 - aed2\mergesort\mergesort.h
+
+1497991664 source:b:\trabalhos da faculdade\gbc034 - aed2\mergesort\mergesort.c
+	<stdio.h>
+	<stdlib.h>
+	"mergesort.h"
+

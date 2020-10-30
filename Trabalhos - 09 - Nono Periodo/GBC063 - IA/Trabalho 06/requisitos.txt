@@ -1,0 +1,8 @@
+Requisitos:
+pip install sklearn
+pip install numpy
+pip install pandas
+pip install yellowbrick
+pip install matplotlib
+
+OBS: Teste do git

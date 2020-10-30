@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1446667744 source:b:\trabalhos da faculdade\gbc034 - aed2\selectionsort\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1497933863 source:b:\trabalhos da faculdade\gbc034 - aed2\selectionsort\selectionsort.c
+	<stdio.h>
+	<stdlib.h>
+	"selectionsort.h"
+
+1497933863 b:\trabalhos da faculdade\gbc034 - aed2\selectionsort\selectionsort.h
+

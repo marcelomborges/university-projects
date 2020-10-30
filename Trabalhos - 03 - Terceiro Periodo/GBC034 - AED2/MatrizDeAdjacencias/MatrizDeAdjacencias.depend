@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1498022355 source:b:\trabalhos da faculdade\gbc034 - aed2\matrizdeadjacencias\main.c
+	<stdio.h>
+	<stdlib.h>
+	"matrizdeadjacencias.h"
+
+1498022141 b:\trabalhos da faculdade\gbc034 - aed2\matrizdeadjacencias\matrizdeadjacencias.h
+
+1498022252 source:b:\trabalhos da faculdade\gbc034 - aed2\matrizdeadjacencias\matrizdeadjacencias.c
+	<stdio.h>
+	<stdlib.h>
+	"matrizdeadjacencias.h"
+

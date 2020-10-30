@@ -1,0 +1,5 @@
+Aluno: Marcelo Mendonca Borges
+Matricula: 11611BCC020
+
+-> Nao foram feitas as funcoes de arvore cheia, arvore completa e nem a remocao de arvore AVL;
+-> Nas mains essas funcoes so realizam um printf.

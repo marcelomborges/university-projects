@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1498022372 source:b:\trabalhos da faculdade\gbc034 - aed2\listasdeadjacencias\main.c
+	<stdio.h>
+	<stdlib.h>
+	"listasdeadjacencias.h"
+
+1498022355 b:\trabalhos da faculdade\gbc034 - aed2\listasdeadjacencias\listasdeadjacencias.h
+
+1498891217 source:b:\trabalhos da faculdade\gbc034 - aed2\listasdeadjacencias\listasdeadjacencias.c
+	<stdio.h>
+	<stdlib.h>
+	"listasdeadjacencias.h"
+

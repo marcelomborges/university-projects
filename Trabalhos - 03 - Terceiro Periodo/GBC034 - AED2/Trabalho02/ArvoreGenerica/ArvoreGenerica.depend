@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1501141462 source:b:\trabalhos da faculdade\gbc034 - aed2\arvoregenerica\arvore_generica.c
+	<stdio.h>
+	<stdlib.h>
+	"arvore_generica.h"
+	"fila_arvore_generica.h"
+
+1501141019 b:\trabalhos da faculdade\gbc034 - aed2\arvoregenerica\arvore_generica.h
+
+1501144473 source:b:\trabalhos da faculdade\gbc034 - aed2\arvoregenerica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arvore_generica.h"
+	"fila_arvore_generica.h"
+
+1501118290 b:\trabalhos da faculdade\gbc034 - aed2\arvoregenerica\fila_arvore_generica.h
+
+1501116890 source:b:\trabalhos da faculdade\gbc034 - aed2\arvoregenerica\fila_arvore_generica.c
+	<stdio.h>
+	<stdlib.h>
+	"arvore_generica.h"
+	"fila_arvore_generica.h"
+
+1501141462 source:b:\trabalhos da faculdade\gbc034 - aed2\trabalho02\arvoregenerica\arvore_generica.c
+	<stdio.h>
+	<stdlib.h>
+	"arvore_generica.h"
+	"fila_arvore_generica.h"
+
+1501141019 b:\trabalhos da faculdade\gbc034 - aed2\trabalho02\arvoregenerica\arvore_generica.h
+
+1501118290 b:\trabalhos da faculdade\gbc034 - aed2\trabalho02\arvoregenerica\fila_arvore_generica.h
+
+1501116890 source:b:\trabalhos da faculdade\gbc034 - aed2\trabalho02\arvoregenerica\fila_arvore_generica.c
+	<stdio.h>
+	<stdlib.h>
+	"arvore_generica.h"
+	"fila_arvore_generica.h"
+
+1501144473 source:b:\trabalhos da faculdade\gbc034 - aed2\trabalho02\arvoregenerica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arvore_generica.h"
+	"fila_arvore_generica.h"
+

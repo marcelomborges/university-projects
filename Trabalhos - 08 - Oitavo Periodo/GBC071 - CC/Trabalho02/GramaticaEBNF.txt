@@ -1,0 +1,116 @@
+inicio
+   : 'PROGRAMA' bloco
+
+bloco
+   : 'INICIO' declaracao comando 'FIM'
+   ; 
+
+declaracao
+   : tipo id ';'
+   | tipo '[' tamanho ']' id ';'
+   | tipo (id ',')* id ';'
+   | tipo '[' tamanho ']' (id ',')* id ';'
+   ;
+
+tipo
+   : int
+   | char
+   | real
+   ;
+
+tamanho
+   : int
+   ;
+
+comando
+   : id '=' expressao_parentesis ';'
+   | id '[' posicao ']' '=' expressao_parentesis ';'
+   | 'SE' condicao_parentesis bloco
+   | 'SE' condicao_parentesis bloco 'SENAO' bloco
+   | 'ENQUANTO' condicao_parentesis bloco
+   | 'FACA' bloco 'ENQUANTO' condicao_parentesis ';'
+   | 'PARA' condicao_para bloco
+   ;
+
+condicao_parentesis
+   : '(' condicao ')'
+   ;
+
+condicao
+   : arg
+   | arg '==' arg
+   | arg '<>' arg
+   | arg '<' arg
+   | arg '>' arg
+   | arg '>=' arg
+   | arg '<=' arg
+   | 'NOT' condicao_parentesis
+   | condicao_parentesis 'AND' condicao_parentesis
+   | condicao_parentesis 'OR' condicao_parentesis
+   ;
+
+expressao_parentesis
+   : '(' expressao ')'
+   ;
+
+expressao
+   : arg
+   | arg '+' expressao_parentesis
+   | arg '-' expressao_parentesis
+   | arg '*' expressao_parentesis
+   | arg '/' expressao_parentesis
+   ;
+
+posicao
+   : int
+   ;
+
+condicao_para
+   : '(' id '=' expressao ';' condicao ';' id '=' expressao ')'
+   ;
+
+arg
+   : id
+   | int
+   | real
+   | condicao_parentesis
+   | expressao_parentesis
+   ;
+
+id
+   : STRING
+   ;
+
+int
+   : INTEIRO
+   ;
+
+char
+   : CARACTERE
+   ;
+   
+real
+   : NUMERO_REAL;
+   ;
+
+STRING
+   : [a-zA-Z]+
+   ;
+
+INTEIRO
+   : [0-9]+
+   | '-' [0-9]+
+   ;
+
+CARACTERE
+   : [a-zA-Z]
+   ;
+
+NUMERO_REAL
+   : [0-9]+ '.' [0-9]+
+   | '-' [0-9]+ '.' [0-9]+
+   ;
+
+WS
+   : [ \n\t] -> skip
+   ;
