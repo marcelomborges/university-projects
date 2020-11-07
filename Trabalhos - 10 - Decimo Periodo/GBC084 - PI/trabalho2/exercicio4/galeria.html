@@ -4,38 +4,140 @@
         <head>
                 <meta charset ="UTF-8">
                 <title>Galeria</title>
+                <style>
+                        /*PAGE ----------------------------------------------*/
+                        body {
+                                margin: 0;
+                                padding: 0;
+                        }
+                        /*HEADER --------------------------------------------*/
+                        header {
+                                background: url(../images/header_bg.jpg);
+                        } 
+
+                        .cabecalho{
+                                width: 86%;
+                                margin: 0 auto;
+                                border: 0;
+                                overflow: auto;
+                                padding: 2%;
+                        }
+
+                        .cabecalho img {
+                                float: left;
+                                width: 20%;
+                                margin: 0 15px 0 0;
+                        }
+
+                        .cabecalho h1 {
+                                font-size: 4em;
+                                font-weight: 900;
+                                color: white;
+                                text-decoration: none;
+                                text-align: center;
+                                text-shadow: 5px 5px grey;
+                        }
+
+                        .navegador {
+                                width: 100%;
+                                background-color: rgb(84, 84, 84);
+                        }
+
+                        nav {
+                                margin: 0 auto;
+                                width: 70%;
+                        }
+
+                        nav ul {
+                                margin: 0;
+                        }
+
+                        nav li {
+                                vertical-align: top;
+                                display: inline-block;
+                                text-align: center;
+                                padding: 10px 0;
+                                width: 31%;
+                        }
+
+                        nav a {
+                                text-transform: uppercase;
+                                font-size: 1.4em;
+                                font-weight: bold;
+                                text-decoration: none;
+                                color: lightgrey;
+                        }
+                        nav a:hover {
+                                color: grey;
+                        }
+                        /*MAIN ----------------------------------------------*/
+                        /*FOOTER --------------------------------------------*/
+                        footer {
+                                text-align: center;
+                                background: url(../images/footer_bg.png);
+                                padding: 40px 0;
+                                overflow: hidden;
+                        }
+
+                        footer img {
+                                padding: 15px;
+                                width: 5%;
+                        }
+
+                        .copyright {
+                                color: #FFFFFF;
+                                font-size: 1em;
+                        }       
+
+                        .copyright a {
+                                color: lightgrey;
+                                font-size: 1em;
+                        }
+
+                        .copyright a:hover {
+                                color: gray;
+                        }
+                </style>
         </head>
         <body>
                 <header>
-                        <h1>Menu de Navegação</h1>
-                        <nav>
-                                <ul>
-                                        <li><a href="index.html">Currículo</a></li>
-                                        <li><a href="galeria.html">Galeria</a></li>
-                                        <li><a href="oferta.html">Oferta de Trabalho</a></li>
-                                </ul>
-                        </nav>
+                        <div class="cabecalho">
+                                <img src="../images/alastor_token.png" alt="AlastorToken">
+                                <h1>Alastor Orcus Dahaka</h1>
+                        </div>  
+                        <div class="navegador">
+                                <nav>
+                                        <ul>
+                                                <li><a href="exercicio4.html">Currículo</a></li>
+                                                <li><a href="galeria.html">Galeria</a></li>
+                                                <li><a href="oferta.html">Oferta de Trabalho</a></li>
+                                        </ul>
+                                </nav>
+                        </div>
                 </header>
+
                 <main>
                         <h1>Galeria</h1>
                         <table>
                                 <tr>
-                                        <td><img src="images/alastor1.png" alt="Alastor1" width="400"></td>
-                                        <td><img src="images/alastor2.png" alt="Alastor2" width="400"></td>
-                                        <td><img src="images/alastor3.png" alt="Alastor3" width="400"></td>
+                                        <td><img src="../images/alastor1.png" alt="Alastor1" width="400"></td>
+                                        <td><img src="../images/alastor2.png" alt="Alastor2" width="400"></td>
+                                        <td><img src="../images/alastor3.png" alt="Alastor3" width="400"></td>
                                 </tr>
                                 <tr>
-                                        <td><img src="images/alastor4.png" alt="Alastor4" width="400"></td>
-                                        <td><img src="images/alastor5.png" alt="Alastor5" width="400"></td>
-                                        <td><img src="images/alastor6.png" alt="Alastor6" width="400"></td>
+                                        <td><img src="../images/alastor4.png" alt="Alastor4" width="400"></td>
+                                        <td><img src="../images/alastor5.png" alt="Alastor5" width="400"></td>
+                                        <td><img src="../images/alastor6.png" alt="Alastor6" width="400"></td>
                                 </tr>
                         </table>
 
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/GWMSvX4Q218" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </main>
+                
                 <footer>
-                        <h1>Rodapé</h1>
-                        <p>&copy; Copyright - <a href="https://github.com/marcelomborges">Marcelo M. Borges</a></p>
+                        <img src="../images/skull.png" alt="Ícone Caveira">
+                        <p class="copyright">&copy; Copyright - <a href="https://github.com/marcelomborges">Marcelo M. Borges</a></p>
+                        <p class="copyright">Ícones feitos por <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon"> www.flaticon.com</a></p>
                 </footer>
         </body>
 </html>
