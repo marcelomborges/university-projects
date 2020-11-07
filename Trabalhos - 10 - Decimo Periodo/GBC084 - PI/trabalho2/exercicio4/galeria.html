@@ -71,15 +71,62 @@
                                 color: grey;
                         }
                         /*MAIN ----------------------------------------------*/
-                        /*FOOTER --------------------------------------------*/
-                        footer {
-                                text-align: center;
-                                background: url(../images/footer_bg.png);
-                                padding: 40px 0;
-                                overflow: hidden;
+                        .principal {
+                                width: 100%;
+                                margin: 0 auto;
+                                padding: 15px 0;
+                                box-shadow: inset 0 0 20px #000000;
+                                background: linear-gradient(#bbbbbb,#707070);
                         }
 
-                        footer img {
+                        .principal hr {
+                                border: 1px solid black;
+                                border-radius: 2px;
+                        }
+
+                        .galeria {
+                                width: 90%;
+                                margin: 0 auto;
+                                overflow: auto;
+                        }
+
+                        .galeria table {
+                                border: 2px solid black;
+                                border-radius: 10px;
+                                border-collapse: collapse;
+                        }
+
+                        .video {
+                                width: 500px;
+                                margin: 0 auto;
+                        }
+
+                        .video iframe {
+                                display: block;
+
+                        }
+
+                        .titulo-principal {
+                                text-align: center;
+                                font-size: 2.7em;
+                                margin: 0;
+                                text-shadow: 2px 2px#707070;
+                        }
+
+                        /*FOOTER --------------------------------------------*/
+                        footer {
+                                background: url(../images/footer_bg.png);
+                        }
+                        
+                        .rodape {
+                                text-align: center;
+                                padding: 40px 0;
+                                overflow: hidden;
+                                width: 70%;
+                                margin: 0 auto;
+                        }
+
+                        .rodape img {
                                 padding: 15px;
                                 width: 5%;
                         }
@@ -117,27 +164,38 @@
                 </header>
 
                 <main>
-                        <h1>Galeria</h1>
-                        <table>
-                                <tr>
-                                        <td><img src="../images/alastor1.png" alt="Alastor1" width="400"></td>
-                                        <td><img src="../images/alastor2.png" alt="Alastor2" width="400"></td>
-                                        <td><img src="../images/alastor3.png" alt="Alastor3" width="400"></td>
-                                </tr>
-                                <tr>
-                                        <td><img src="../images/alastor4.png" alt="Alastor4" width="400"></td>
-                                        <td><img src="../images/alastor5.png" alt="Alastor5" width="400"></td>
-                                        <td><img src="../images/alastor6.png" alt="Alastor6" width="400"></td>
-                                </tr>
-                        </table>
+                        <div class="principal">
+                                <h1 class="titulo-principal">Galeria</h1>
+                                <hr>
+                                <div class="galeria">
+                                        <table>
+                                                <tr>
+                                                        <td><img src="../images/alastor1.png" alt="Alastor1" width="400"></td>
+                                                        <td><img src="../images/alastor2.png" alt="Alastor2" width="400"></td>
+                                                        <td><img src="../images/alastor3.png" alt="Alastor3" width="400"></td>
+                                                </tr>
+                                                <tr>
+                                                        <td><img src="../images/alastor4.png" alt="Alastor4" width="400"></td>
+                                                        <td><img src="../images/alastor5.png" alt="Alastor5" width="400"></td>
+                                                        <td><img src="../images/alastor6.png" alt="Alastor6" width="400"></td>
+                                                </tr>
+                                        </table>
+                                </div>
 
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/GWMSvX4Q218" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <hr>
+                                
+                                <div class="video">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/GWMSvX4Q218" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                        </div>
                 </main>
                 
                 <footer>
-                        <img src="../images/skull.png" alt="Ícone Caveira">
-                        <p class="copyright">&copy; Copyright - <a href="https://github.com/marcelomborges">Marcelo M. Borges</a></p>
-                        <p class="copyright">Ícones feitos por <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon"> www.flaticon.com</a></p>
+                        <div class="rodape">
+                                <img src="../images/skull.png" alt="Ícone Caveira">
+                                <p class="copyright">&copy; Copyright - <a href="https://github.com/marcelomborges">Marcelo M. Borges</a></p>
+                                <p class="copyright">Ícones feitos por <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon"> www.flaticon.com</a></p>
+                        </div>
                 </footer>
         </body>
 </html>
