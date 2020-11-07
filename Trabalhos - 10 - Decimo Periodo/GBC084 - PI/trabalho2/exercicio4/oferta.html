@@ -71,6 +71,97 @@
                                 color: grey;
                         }
                         /*MAIN ----------------------------------------------*/
+                        .principal {
+                                width: 100%;
+                                margin: 0 auto;
+                                padding: 15px 0;
+                                box-shadow: inset 0 0 20px #000000;
+                                background: linear-gradient(#bbbbbb,#707070);
+                        }
+
+                        .principal hr {
+                                border: 1px solid black;
+                                border-radius: 2px;
+                        }
+
+                        .titulo-principal {
+                                text-align: center;
+                                font-size: 2.7em;
+                                margin: 0;
+                                text-shadow: 2px 2px#707070;
+                        }
+                        
+                        .oferta {
+                                width: 70%;
+                                margin: 0 auto;
+                                padding: 10px;
+                                background-color: #FFFFFF;
+                                border: 1px solid black;
+                                border-radius: 10px;
+                        }
+
+                        .secao {
+                                width: 70%;
+                                margin: 0 auto;
+                        }
+
+                        .secao label {
+                                width: 20%;
+                                font-size: 1.2em;
+                                font-weight: bold;
+                                text-align: right;
+                        }
+
+                        .secao input{
+                                width: 50%;
+                        }
+
+                        .secao textarea {
+                                width: 100%;
+                                resize: none;
+                        }
+                        
+                        .titulo-form {
+                                text-align: center;
+                                font-size: 1.8em;
+                                margin: 0 0 10px 0;
+                                text-shadow: 2px 2px#5f5f5f;
+                        }
+
+                        .subtitulo-form {
+                                text-align: center;
+                                font-size: 1.5em;
+                                margin: 0 0 10px 0;
+                                text-shadow: 2px 2px#5f5f5f;
+                        }
+
+                        input:invalid + span::after {
+                                content: "❌";
+                        }
+
+                        input:valid + span::after {
+                                content: "✅";
+                        }
+
+                        .div-botoes {
+                                text-align: center;
+                        }
+
+                        .botoes {
+                                width: 40%;
+                                padding: 15px 0;
+                                background: #1752BE;
+                                color: #FFFFFF;
+                                font-weight: bold;
+                                font-size: 18px;
+                                border: none;
+                                border-radius: 5px;
+                                cursor: pointer;
+                        }
+
+                        .botoes:hover {
+                                background: #0E3785;
+                        }
                         /*FOOTER --------------------------------------------*/
                         footer {
                                 background: url(../images/footer_bg.png);
@@ -122,140 +213,146 @@
                 </header>
 
                 <main>
-                        <h1>Oferta de Trabalho</h1>
-                        <fieldset>
-                                <legend>Formulário</legend>
-                                <form action="oferta.php" method="GET">
-                                        <section>
-                                                <h2>Dados Pessoais</h2>
-                                                <div>
-                                                        <label for="nome">Nome:</label>
-                                                        <input type="text" id="nome" name="nome" required>
-                                                </div>
-                                                <div>
-                                                        <label for="email">Email:</label>
-                                                        <input type="email" id="email" name="email" required>
-                                                </div>
-                                                <div>
-                                                        <label for="idade">Idade:</label>
-                                                        <input type="number" id="idade" name="idade" required>
-                                                </div>
-                                                <div>
-                                                        <label for="telefone">Telefone:</label>
-                                                        <input type="tel" id="telefone" name="telefone" required>
-                                                </div>
-                                                <div>
-                                                        <label for="data_nascimento">Data de Nascimento:</label>
-                                                        <input type="date" id="data_nascimento" name="data_nascimento">
-                                                </div>
-                                                <div>
-                                                        <label for="sexo">Sexo:</label>
-                                                        <select id="sexo" name="sexo">
-                                                                <option value="F">Feminino</option>
-                                                                <option value="M">Masculino</option>
-                                                        </select>
-                                                </div>
-                                                <div>   
-                                                        <label for="estado_civil">Estado Civil:</label>
-                                                        <select id="estado_civil" name="estado_civil">
-                                                                <option value="solteiro">Solteiro(a)</option>
-                                                                <option value="casado">Casado(a)</option>
-                                                                <option value="divorciado">Divorciado(a)</option>
-                                                                <option value="separado">Separado(a)</option>
-                                                                <option value="viuvo">Viúvo(a)</option>
-                                                        </select>
-                                                </div>
-                                        </section><hr>
-                                        <section>
-                                                <h2>Dados da Empresa</h2>
-                                                <div>
-                                                        <label for="cnpj">CNPJ:</label>
-                                                        <input type="text" id="cnpj" name="cnpj">
-                                                </div>
-                                                <div>
-                                                        <label for="razao_social">Razão Social:</label>
-                                                        <input type="text" id="razao_social" name="razao_social">
-                                                </div>
-                                                <div>   
-                                                        <label for="ramo_atuacao">Ramo de Atuação:</label>
-                                                        <input type="text" id="ramo_atuacao" name="ramo_atuacao">
-                                                </div>
-                                        </section><hr>
-                                        <section>
-                                                <h2>Endereço</h2>
-                                                <div>
-                                                        <label for="cep">CEP:</label>
-                                                        <input type="text" id="cep" name="cep" required>
-                                                </div>
-                                                <div>   
-                                                        <label for="tipo_logradouro">Tipo de Logradoura:</label>
-                                                        <select id="tipo_logradouro" name="tipo_logradouro">
-                                                                <option value="alameda">Alameda</option>
-                                                                <option value="avenida">Avenida</option>
-                                                                <option value="praca">Praça</option>
-                                                                <option value="rua">Rua</option>
-                                                        </select>
-                                                </div>
-                                                <div>
-                                                        <label for="logradouro">Logradouro:</label>
-                                                        <input type="text" id="logradouro" name="logradouro" required>
-                                                </div>
-                                                <div>
-                                                        <label for="cidade">Cidade:</label>
-                                                        <input type="text" id="cidade" name="cidade" required>
-                                                </div>
-                                                <div>
-                                                        <label for="estado">Estado:</label>
-                                                        <input type="text" id="estado" name="estado" required>
-                                                </div>
-                                        </section><hr>
-                                        <section>
-                                                <h2>Descrição detalhada do interesse</h2>
-                                                <textarea name="descricao" rows=10 cols=100></textarea>
-                                        </section><hr>
-                                        <section>
-                                                <h2>Outro</h2>
-                                                <h3>Horário para Retorno</h3>
-                                                <div>
-                                                        <input type="radio" id="manha" name="horario" value="manha" checked>
-                                                        <label for="manha">Manhã</label>
-                                                </div>
-                                                <div>
-                                                        <input type="radio" id="tarde" name="horario" value="tarde">
-                                                        <label for="tarde">Tarde</label>
-                                                </div>
-                                                <div>
-                                                        <input type="radio" id="noite" name="horario" value="noite">
-                                                        <label for="noite">Noite</label>
-                                                </div>
+                        <div class="principal">
+                                <h1 class="titulo-principal">Oferta de Trabalho</h1>
+                                <hr>
+                                <div class="oferta">
+                                        <form action="oferta.php" method="GET">
+                                                <section class="secao">
+                                                        <h2 class="titulo-form">Dados Pessoais</h2>
+                                                        <div>
+                                                                <label for="nome">Nome:</label>
+                                                                <input type="text" id="nome" name="nome" required>
+                                                                <span></span>
+                                                        </div>
+                                                        <div>
+                                                                <label for="email">Email:</label>
+                                                                <input type="email" id="email" name="email" required>
+                                                                <span></span>
+                                                        </div>
+                                                        <div>
+                                                                <label for="idade">Idade:</label>
+                                                                <input type="number" id="idade" name="idade" required>
+                                                                <span></span>
+                                                        </div>
+                                                        <div>
+                                                                <label for="telefone">Telefone:</label>
+                                                                <input type="tel" id="telefone" name="telefone" required>
+                                                        </div>
+                                                        <div>
+                                                                <label for="sexo">Sexo:</label>
+                                                                <select id="sexo" name="sexo">
+                                                                        <option value="F">Feminino</option>
+                                                                        <option value="M">Masculino</option>
+                                                                </select>
+                                                        </div>
+                                                        <div>   
+                                                                <label for="estado_civil">Estado Civil:</label>
+                                                                <select id="estado_civil" name="estado_civil">
+                                                                        <option value="solteiro">Solteiro(a)</option>
+                                                                        <option value="casado">Casado(a)</option>
+                                                                        <option value="divorciado">Divorciado(a)</option>
+                                                                        <option value="separado">Separado(a)</option>
+                                                                        <option value="viuvo">Viúvo(a)</option>
+                                                                </select>
+                                                        </div>
+                                                        <div>
+                                                                <label for="data_nascimento">Data de Nascimento:</label>
+                                                                <input type="date" id="data_nascimento" name="data_nascimento">
+                                                        </div>
+                                                </section><hr>
+                                                <section class="secao">
+                                                        <h2 class="titulo-form">Dados da Empresa</h2>
+                                                        <div>
+                                                                <label for="cnpj">CNPJ:</label>
+                                                                <input type="text" id="cnpj" name="cnpj">
+                                                        </div>
+                                                        <div>
+                                                                <label for="razao_social">Razão Social:</label>
+                                                                <input type="text" id="razao_social" name="razao_social">
+                                                        </div>
+                                                        <div>   
+                                                                <label for="ramo_atuacao">Ramo de Atuação:</label>
+                                                                <input type="text" id="ramo_atuacao" name="ramo_atuacao">
+                                                        </div>
+                                                </section><hr>
+                                                <section class="secao">
+                                                        <h2 class="titulo-form">Endereço</h2>
+                                                        <div>
+                                                                <label for="cep">CEP:</label>
+                                                                <input type="text" id="cep" name="cep" required>
+                                                        </div>
+                                                        <div>   
+                                                                <label for="tipo_logradouro">Tipo de Logradoura:</label>
+                                                                <select id="tipo_logradouro" name="tipo_logradouro">
+                                                                        <option value="alameda">Alameda</option>
+                                                                        <option value="avenida">Avenida</option>
+                                                                        <option value="praca">Praça</option>
+                                                                        <option value="rua">Rua</option>
+                                                                </select>
+                                                        </div>
+                                                        <div>
+                                                                <label for="logradouro">Logradouro:</label>
+                                                                <input type="text" id="logradouro" name="logradouro" required>
+                                                        </div>
+                                                        <div>
+                                                                <label for="cidade">Cidade:</label>
+                                                                <input type="text" id="cidade" name="cidade" required>
+                                                        </div>
+                                                        <div>
+                                                                <label for="estado">Estado:</label>
+                                                                <input type="text" id="estado" name="estado" required>
+                                                        </div>
+                                                </section><hr>
+                                                <section class="secao">
+                                                        <h2 class="titulo-form">Descrição detalhada do interesse</h2>
+                                                        <textarea name="descricao" rows=10 cols=100></textarea>
+                                                </section><hr>
+                                                <section class="secao">
+                                                        <h2 class="titulo-form">Outro</h2>
+                                                        <h3 class="subtitulo-form">Horário para Retorno</h3>
+                                                        <div>
+                                                                <input type="radio" id="manha" name="horario" value="manha" checked>
+                                                                <label for="manha">Manhã</label>
+                                                        </div>
+                                                        <div>
+                                                                <input type="radio" id="tarde" name="horario" value="tarde">
+                                                                <label for="tarde">Tarde</label>
+                                                        </div>
+                                                        <div>
+                                                                <input type="radio" id="noite" name="horario" value="noite">
+                                                                <label for="noite">Noite</label>
+                                                        </div>
 
-                                                <h3>Dias disponíveis para Retorno</h3>
-                                                <div>
-                                                        <input type="checkbox" id="segunda" name="dias[]" value="segunda" checked>
-                                                        <label for="segunda">Segunda-Feira</label>
+                                                        <h3 class="subtitulo-form">Dias disponíveis para Retorno</h3>
+                                                        <div>
+                                                                <input type="checkbox" id="segunda" name="dias[]" value="segunda" checked>
+                                                                <label for="segunda">Segunda-Feira</label>
+                                                        </div>
+                                                        <div>
+                                                                <input type="checkbox" id="terca" name="dias[]" value="terca">
+                                                                <label for="terca">Terça-Feira</label>
+                                                        </div>
+                                                        <div>
+                                                                <input type="checkbox" id="quarta" name="dias[]" value="quarta">
+                                                                <label for="quarta">Quarta-Feira</label>
+                                                        </div>
+                                                        <div>
+                                                                <input type="checkbox" id="quinta" name="dias[]" value="quinta">
+                                                                <label for="quinta">Quinta-Feira</label>
+                                                        </div>
+                                                        <div>
+                                                                <input type="checkbox" id="sexta" name="dias[]" value="sexta">
+                                                                <label for="sexta">Sexta-Feira</label>
+                                                        </div>
+                                                </section><hr>
+                                                <div class="div-botoes">
+                                                        <input type="submit" value="Enviar" class="botoes">
+                                                        <input type="reset" value="Limpar" class="botoes">
                                                 </div>
-                                                <div>
-                                                        <input type="checkbox" id="terca" name="dias[]" value="terca">
-                                                        <label for="terca">Terça-Feira</label>
-                                                </div>
-                                                <div>
-                                                        <input type="checkbox" id="quarta" name="dias[]" value="quarta">
-                                                        <label for="quarta">Quarta-Feira</label>
-                                                </div>
-                                                <div>
-                                                        <input type="checkbox" id="quinta" name="dias[]" value="quinta">
-                                                        <label for="quinta">Quinta-Feira</label>
-                                                </div>
-                                                <div>
-                                                        <input type="checkbox" id="sexta" name="dias[]" value="sexta">
-                                                        <label for="sexta">Sexta-Feira</label>
-                                                </div>
-                                        </section><hr>
-                                        
-                                        <button>Enviar</button>
-                                        <input type="reset" value="Limpar">
-                                </form>
-                        </fieldset>
+                                        </form>
+                                </div>
+                        </div>
                 </main>
                 
                 <footer>
