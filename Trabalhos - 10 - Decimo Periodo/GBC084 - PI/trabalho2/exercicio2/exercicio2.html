@@ -4,8 +4,70 @@
         <head>
                 <meta charset ="UTF-8">
                 <title>Exercicio 2</title>
+                <style>
+                        
+                        /*PAGE ----------------------------------------------*/
+                        body {
+                                margin: 0;
+                                padding: 0;
+                                font-family: sans-serif;
+                                background-image: url(../images/bg1.jpg);
+                        }
+
+                        /*MAIN ----------------------------------------------*/
+                        .principal {
+                                font-family: sans-serif;
+                                background-color: white;
+                                border: 1px solid grey;
+                                border-radius: 10px;
+                                padding: 20px;
+                                width: 50%;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                        }
+
+                        .login input{
+
+                                display: block;
+                                width: 90%;
+                                margin: 10px 15px;
+                                border: 1px solid grey;
+                                border-radius: 5px;
+                                padding: 8px;
+
+                        }
+
+                        .login input:focus{
+                                border: 0.5px solid green;
+                                box-shadow: 0 0 5px limegreen;
+                                outline: none;
+                        }
+
+
+                </style>
         </head>
         <body>
+                <main>
+                        <div class="principal">
+                                <div class="oferta">
+                                        <form action="login.php" method="GET" class="login">
+                                                <div>
+                                                        <label for="user">Usuário:</label>
+                                                        <input type="text" id="user" name="user" required>
+                                                        <span></span>
+                                                </div>
+                                                <div>
+                                                        <label for="password">Nome:</label>
+                                                        <input type="password" id="password" name="password     " required>
+                                                        <span></span>
+                                                </div>
 
+                                                <button>Entrar</button>
+                                        </form>
+                                </div>
+                        </div>
+                </main>
         </body>
 </html>
