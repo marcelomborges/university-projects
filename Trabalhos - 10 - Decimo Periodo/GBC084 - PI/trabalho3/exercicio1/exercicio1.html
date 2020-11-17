@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+        <head>
+                <meta charset ="UTF-8">
+                <title>Exercicio 1</title>
+                <style>
+                        body {
+                                font-family: sans-serif;
+                                background-image: url(../images/background.jpg);
+                                background-size: cover;
+                                margin: 0;
+                                padding: 20px;
+                        }
+
+                        .modal {
+                                background-color: #0007;
+                                display: none;
+                                width: 100%;
+                                height: 100%;
+
+                                position: fixed;
+                                top: 0;
+                                left: 0;
+                                overflow: auto;
+                        }
+
+                        .modalContent {
+                                background-color: azure;
+                                margin: auto;
+                                padding: 15px;
+                                border: 1px solid grey;
+                                box-shadow: 0 0 5px #525252;
+
+                                width: 50%;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                        }
+
+                        .modalContent button {
+                                width: 100%;
+                                padding: 5px;
+                                cursor: pointer;
+
+                                color: #333333;
+                                border: 2px solid rgb(122, 222, 255);
+                                background-color: rgb(150, 225, 250);
+
+                                outline: none;
+                        }
+
+                        .modalContent button:hover {
+                                background-color: rgb(203, 242, 255);
+                        }
+                </style>
+
+
+        </head>
+        <body>
+                <main>
+                        <h1>A FACOM</h1>
+                        <p>A Universidade Federal de Uberlândia foi fundada em 1969, com a associação de diversas faculdades isoladas como a Faculdade de Engenharia, a Escola de Medicina, entre outras. Em 1978 ocorreu sua federalização, ocasião em que sua organização acadêmica e  administrativa foi estruturada em três centros: Centro de Ciências Exatas e Tecnologia (CETEC), Centro de Ciências Humanas e Artes (CEHAR) e Centro de Ciências Biológicas (CEBIM).</p>
+
+                        <p>A Faculdade de Computação (FACOM) da Universidade Federal de Uberlândia foi criada em 2000, a partir do extinto Departamento de Informática (DEINF), criado em 1988, no âmbito do CETEC, com docentes provenientes dos departamentos de Engenharia Elétrica e de Matemática.</p>
+                        
+                        <button type="button" id="btnOpenModal">Abrir Modal</button>
+                </main>
+
+                <div id="modalTeste" class="modal">
+                        <div class="modalContent">
+                                <h2>Olá, seja bem vindo!</h2>
+                                <button class="buttonClose">Ok</button>
+                        </div>
+                </div>
+
+                <script>
+                        //Associando uma funcao anonima ao carregamento da window
+                        window.onload = function () {
+                                //Selecionando o elemento no documento HTML, que possui a classe .modal
+                                const modal = document.querySelector(".modal");
+                                //Selecionando o elemento dentro de modal, que possui a classe .buttonClose
+                                const buttonClose = modal.querySelector(".buttonClose");
+                                //Selecionando o elemento no documento HTML, de id="btnOpenModal" 
+                                const buttonOpenModal = document.getElementById("btnOpenModal");
+
+                                //Adicionando funcao anonima ao evento click do botao de id=btnOpenModal 
+                                buttonOpenModal.addEventListener("click", function () {
+                                        //Fazendo a div do modal aparecer na tela
+                                        modal.style.display = 'block';
+                                });
+
+                                //Adicionando funcao anonima ao evento click do botao de classe .buttonClose
+                                buttonClose.addEventListener("click", function () {
+                                        //Fazendo a div do modal desaparecer na tela
+                                        modal.style.display = 'none';
+                                });
+                        }
+                </script>
+        </body>
+</html>
