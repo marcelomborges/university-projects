@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+        <head>
+                <meta charset ="UTF-8">
+                <title>Exercício 3</title>
+                <style>
+                        body {
+                                font-family: sans-serif;
+                                margin: 0;
+                                padding: 0;
+                                background-color: rgb(180, 180, 180);
+                        }
+
+                        header h1 {
+                                margin: 0;
+                                padding: 20px;
+                                text-align: center;
+                                font-size: 2em;
+                                color: rgb(218, 218, 218);
+                        }
+
+                        header section {
+                                background-color: black;
+                        }
+
+                        nav ul {
+                                text-align: center;
+                                margin: 0;
+                                padding: 0;
+                                box-shadow: 0 0 5px 0 black;
+                                background-color: white;
+                        }
+
+                        nav li{
+                                display: inline-block;
+                        }
+
+                        nav span {
+                                font-weight: bold;
+                        } 
+
+                        nav button {
+                                border: none;
+                                outline: none;
+                                padding: 0 10px;
+                                background-color: inherit;
+                                height: 30px;
+                                margin: 0;
+                        }
+
+                        nav button:hover {
+                                color: blue;
+                                cursor: pointer;
+                                text-decoration: underline;
+                        }
+
+                        button.buttonActive {
+                                font-weight: bold;
+                                color: blue;
+                        }
+
+                        .tabs {
+                                width: 70%;
+                                margin: 5px auto;
+                                border: 1px solid black;
+                                padding: 0px 20px;
+                                background-color: rgb(255, 255, 255);
+                        }
+
+                        .tabs h2 {
+                                color: rgb(0, 0, 155);
+                        }
+
+                        .tabs section {
+                                display: none;
+                        }
+
+                        section.tabActive {
+                                display: block;
+                        }
+                </style>
+        </head>
+        <body>
+                <header>
+                        <section>
+                                <h1>Faculdade de Computação</h1>
+                        </section>
+                </header>
+
+                <nav>
+                        <section>
+                                <ul>
+                                        <li><button>Ciência da Computação</button><span>|</span></li>
+                                        <li><button>Sistemas de Informação</button><span>|</span></li>
+                                        <li><button>Mestrado</button><span>|</span></li>
+                                        <li><button>Doutorado</button></li>
+                                </ul>
+                        </section>
+                </nav>
+
+                <main>
+                        <div class="tabs">
+                                <section>
+                                        <h2>Bacharelado em Ciência da Computação</h2>
+                                        <p>O Curso de Bacharelado em Ciência da Computação é o marco inicial da Faculdade de Computação. Foi criado em 1988 e teve o seu reconhecimento em 11 de fevereiro de 1993 por meio da Portaria 181/93 do MEC. O objetivo do Curso é formar profissionais da área de Informática com competência no desenvolvimento de software, atendendo adequadamente as exigências de mercado de trabalho, além de capacitar o egresso a concluir com sucesso programas de pós-graduação.</p>
+                                        <p>Os egressos do curso têm obtido grande êxito na realização profissional, destacando, um considerável número de empresas pertencentes à ex-alunos do curso; um grande número de alunos que ingressam em consolidados cursos de pós-graduação no país e exterior; atuação significativa de nossos ex-alunos em atividades de ensino e pesquisa em instituições de ensino de nível superior; e outros tantos que atuam em grandes empresas nacionais e multinacionais.</p>
+                                </section>
+                                <section>
+                                        <h2>Bacharelado em Sistemas de Informação</h2>
+                                        <p>O Curso de Bacharelado em Sistemas de Informação foi criado no ano de 2009 e teve o seu reconhecimento em 31 de Maio de 2013 por meio da Portaria 248/13 do Ministério da Educação.</p>
+                                        <p>O Objetivo do Curso é preparar profissionais com sólida e ampla formação técnica na área de tecnologia da informação aplicada às organizações; Desenvolver discentes empreendedores, capazes de projetar, implementar e gerenciar a infraestrutura de tecnlogia da informação envolvendo computadores, comunicação e dados em sistemas organizacionais; Consolidar um profissional cidadão, com competências - conhecimentos, habilidades e atitudes - e com responsabilidade social, capaz de respeitar as diferenças individuais, saber produzir e usar a tecnologia em benefício da sociedade e com visão sistêmica de negócios.</p>
+                                </section>
+                                <section>
+                                        <h2>Mestrado em Ciência da Computação</h2>
+                                        <p>O Programa de Pós-Graduação em Ciência da Computação (PPGCO) da Universidade Federal de Uberlândia (UFU) foi criado em março de 2001 em resposta à demanda regional por formação acadêmica de qualidade, tendo como objetivo a formação de pesquisadores, docentes e profissionais altamente gabaritados para aturarem em universidades, centros de pesquisa e empresas envolvidas com tecnologia de ponta.       
+                                        </p>
+                                        <p>Com conceito 4 pela CAPES, o PPGCO desenvolve atividades de pesquisa agrupadas em quatro áreas de concentração: Banco de Dados e Imagens, Engenharia de Software, Inteligência Artificial e Sistemas de Computação. A inovação e relevância dos resultados de suas pesquisas se refletem no crescente número de publicações em veículos de grande impacto, no registro de patentes e no estabelecimento de vários acordos de cooperação acadêmica e científica com diversas instituições de pesquisa nacionais e internacionais.</p>
+                                </section>
+                                <section>
+                                        <h2>Doutorado em Ciência da Computação</h2>
+                                        <p>O Programa de Pós-Graduação em Ciência da Computação (PPGCO) da Universidade Federal de Uberlândia (UFU) foi criado em março de 2001 em resposta à demanda regional por formação acadêmica de qualidade, tendo como objetivo a formação de pesquisadores, docentes e profissionais altamente gabaritados para aturarem em universidades, centros de pesquisa e empresas envolvidas com tecnologia de ponta.       
+                                        </p>
+                                        <p>Com conceito 4 pela CAPES, o PPGCO desenvolve atividades de pesquisa agrupadas em quatro áreas de concentração: Banco de Dados e Imagens, Engenharia de Software, Inteligência Artificial e Sistemas de Computação. A inovação e relevância dos resultados de suas pesquisas se refletem no crescente número de publicações em veículos de grande impacto, no registro de patentes e no estabelecimento de vários acordos de cooperação acadêmica e científica com diversas instituições de pesquisa nacionais e internacionais.</p>
+                                </section>
+                        </div>
+                </main>
+
+                <script>
+                        //Associando uma função anônima ao carregamento da window
+                        window.onload = function () {
+                                //Selecionando dentro do documento HTML, todos os botões dentro do nav
+                                buttons = document.querySelectorAll("nav button");
+                                for (let button of buttons) {
+                                        //Associando a cada um dos botões a função changeTab()
+                                        button.addEventListener("click", changeTab);
+                                        //Executando a função openTab() com o índice 0 sendo passado como parâmetro
+                                        openTab(0);
+                                }
+                        }
+
+                        function changeTab(e) {
+                                //Selecionando o botão clicado que acionou a função changeTab
+                                const botaoAcionado = e.target;
+                                //Selecionando o li, nó pai, do botão clicado
+                                const liDoBotao = botaoAcionado.parentNode;
+                                //Selecionando o ul, pai do li do botão
+                                const nodes = Array.from(liDoBotao.parentNode.children);
+                                //Pegando o índice do botão clicado, dentro da lista de filhos de ul
+                                const index = nodes.indexOf(liDoBotao);
+                                //Chamando a função openTab() passando o índice recuperado de parâmetro
+                                openTab(index);
+                        }
+
+                        function openTab(i) {
+                                //Seleciona a section ativa, que possui a classe .tabActive
+                                const tabActive = document.querySelector(".tabActive");
+                                //Caso tenha alguma section ativa, ela é desativada, removendo sua classe .tabActive
+                                if(tabActive !== null) {
+                                        tabActive.className = "";
+                                }
+
+                                //Seleciona o botao que está ativo no momento, que possui a classe .buttonActive (botão esse que está em nav)
+                                const buttonActive = document.querySelector(".buttonActive");
+                                //Caso tenha algum botão ativo, ele é desativado, removendo sua classe .buttonActive
+                                if(buttonActive !== null) {
+                                        buttonActive.className = "";
+                                }
+
+                                //Muda-se o nome da classe da section do índice recebido, para "tabActive", assim se tornando a nova section ativa
+                                document.querySelectorAll(".tabs section")[i].className = "tabActive";
+                                //Muda-se o nome da classe do botão do índice recebido, para "buttonActive", assim se tornando o novo botão ativo
+                                document.querySelectorAll("nav button")[i].className = "buttonActive";
+                        }
+                </script>
+        </body>
+</html>
