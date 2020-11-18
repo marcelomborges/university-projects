@@ -2,7 +2,7 @@
 <html lang="pt-BR">
         <head>
                 <meta charset ="UTF-8">
-                <title>Exercicio 1</title>
+                <title>Exercício 1</title>
                 <style>
                         body {
                                 font-family: sans-serif;
@@ -29,6 +29,7 @@
                                 margin: auto;
                                 padding: 15px;
                                 border: 1px solid grey;
+                                border-radius: 2px;
                                 box-shadow: 0 0 5px #525252;
 
                                 width: 50%;
@@ -75,7 +76,7 @@
                 </div>
 
                 <script>
-                        //Associando uma funcao anonima ao carregamento da window
+                        //Associando uma função anônima ao carregamento da window
                         window.onload = function () {
                                 //Selecionando o elemento no documento HTML, que possui a classe .modal
                                 const modal = document.querySelector(".modal");
@@ -84,13 +85,13 @@
                                 //Selecionando o elemento no documento HTML, de id="btnOpenModal" 
                                 const buttonOpenModal = document.getElementById("btnOpenModal");
 
-                                //Adicionando funcao anonima ao evento click do botao de id=btnOpenModal 
+                                //Adicionando funcao anonima ao evento click do botão de id=btnOpenModal 
                                 buttonOpenModal.addEventListener("click", function () {
                                         //Fazendo a div do modal aparecer na tela
                                         modal.style.display = 'block';
                                 });
 
-                                //Adicionando funcao anonima ao evento click do botao de classe .buttonClose
+                                //Adicionando funcao anonima ao evento click do botão de classe .buttonClose
                                 buttonClose.addEventListener("click", function () {
                                         //Fazendo a div do modal desaparecer na tela
                                         modal.style.display = 'none';

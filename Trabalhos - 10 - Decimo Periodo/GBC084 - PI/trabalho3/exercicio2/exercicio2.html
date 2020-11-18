@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+        <head>
+                <meta charset ="UTF-8">
+                <title>Exercício 2</title>
+                <style>
+                        body {
+                                font-family: sans-serif;
+                                margin: 0;
+                                padding: 20px;
+                        }
+
+                        div {
+                                padding: 20px;
+                                background-color: rgb(219, 219, 219);
+                                border: 1px solid rgb(119, 119, 119);
+                                border-radius: 2px;
+
+                                width: 50%;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                        }
+
+                        label {
+                                font-size: 1.5em;
+                        }
+
+                        input {
+                                border-radius: 2px;
+                                font-size: 1.2em;
+                        }
+
+                        li {
+                                background-color: rgb(189,217,240);
+                                padding: 5px;
+                                margin: 5px;    
+                                border: 1px solid rgb(134, 187, 230);
+                                border-radius: 2px;
+                                font-size: 1.4em;
+                        }
+
+                        li > button {
+                                font-size: smaller;
+                                float: right;
+                                color: red;
+                                border: none;
+                                background-color: rgb(189,217,240);
+                                cursor: pointer;
+                        }
+                </style>
+        </head>
+        <body>
+                <div>
+                       <label for="interesse">Interesse: </label>
+                       <input type="text" id="interesse" name="interesse">
+
+                       <ol>
+                        </ol>
+                </div>
+
+                <script>
+                        window.onload = function () {
+                                //Selectionando o elemento no documento HTML, de id="interesse"
+                                const botaoAdicionar = document.querySelector("#interesse");
+                                //Adicionando uma função anônima ao botao selecionado, que faz a função adicionarInteresse() caso o botão ENTER seja clicado no teclado
+                                botaoAdicionar.addEventListener("keyup", e => {
+                                        if (e.key === "Enter") 
+                                                adicionarInteresse();
+                                });
+                        }
+
+                        function adicionarInteresse () {
+                                //Seleciona o elemento no documento HTML, de id="interesse"
+                                const campoInteresse = document.querySelector("#interesse");
+                                //Seleciona o elemento <ol> no documento HTML
+                                const listaInteresses = document.querySelector("ol");
+
+                                //Cria 3 novos elementos, um item de lista, um span e um botao
+                                const novoLi = document.createElement("li");
+                                const novoSpan = document.createElement("span");
+                                const novoButton = document.createElement("button");
+
+                                //Atribui o valor escrito no campo para o conteudo do span
+                                novoSpan.textContent = campoInteresse.value;
+                                //Atribui o valor ✖ para o conteudo do botão
+                                novoButton.textContent = '✖';
+
+                                //Insere o span e o botao no item de lista
+                                novoLi.appendChild(novoSpan);
+                                novoLi.appendChild(novoButton);
+                                //Insere o item de lista, na lista ordenada
+                                listaInteresses.appendChild(novoLi);
+
+                                //Adiciona a função de remoção do item da lista, ao botao criado
+                                novoButton.onclick = function () {
+                                        //Removendo o item de lista criado na função
+                                        listaInteresses.removeChild(novoLi);
+
+                                        //Outras opcoes para remoção
+                                        //novoLi.remove();
+                                        //novoLi.parentNode.removeChild(novoLi);
+
+                                }
+
+                                //Apaga o que tinha sido escrito para realizar nova inserção
+                                campoInteresse.value = '';       
+                        }
+                </script>
+        </body>
+</html>
