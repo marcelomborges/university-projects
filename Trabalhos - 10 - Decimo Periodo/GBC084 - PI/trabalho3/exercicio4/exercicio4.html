@@ -8,20 +8,128 @@
                                 font-family: sans-serif;
                                 margin: 0;
                                 padding: 0;
-                                background-color: rgb(180, 180, 180);
+                                background-image: url(../images/background.jpg);
+                                background-size: cover; 
                         }
+
+                        .loginBox {
+                                background-color: white;
+                                padding: 20px;
+                                border: 1px solid grey;
+                                border-radius: 10px;
+
+                                width: 50%;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                        }
+                        
+                        .loginBox h3 {
+                                margin: 10px 0;
+                        }
+
+                        form div {
+                                padding: 10px;
+                        }
+
+                        form input {
+                                width: 90%;
+                                margin: 5px 0;
+                                display: block;
+                                border: 1px solid grey;
+                                border-radius: 5px;
+                                padding: 5px;
+                        }
+
+                        form span {
+                                display: block;
+                                font-weight: bold;
+                                color: red;
+                        }
+
+                        form button {
+                                margin: 10px 0;
+                        }
+
                 </style>
         </head>
         <body>
 
                 <main>
-                        
+                        <div class="loginBox">
+                                <h3>Cadastro de Usuário</h3>
+
+                                <form name="formCadastro" action="action.php" method="post">
+                                        <div>
+                                                <label for="usuario">Usuario: </label>
+                                                <input type="text" id="usuario" name="usuario" autocomplete="off">
+                                                <span></span>
+                                        </div>
+
+                                        <div>
+                                                <label for="senha">Senha: </label>
+                                                <input type="password" id="senha" name="senha" autocomplete="off">
+                                                <span></span>
+                                        </div>
+
+                                        <div>
+                                                <label for="email">Email: </label>
+                                                <input type="email" id="email" name="email" autocomplete="off">
+                                                <span></span>
+                                        </div>
+
+                                        <button>Cadastrar</button>
+                                </form>
+                        </div>
                 </main>
 
                 <script>
                         //Associando uma função anônima ao carregamento da window
                         window.onload = function () {
-                                
+                                //Atribuindo a função validaForm() ao formulário presente no documento HTML
+                                document.forms.formCadastro.onsubmit = validaForm;
+                        }
+
+                        function validaForm (e) {
+                                //Seleciona o formulário
+                                let form = e.target;
+                                //Define uma variável de retorno para o submit do formulário
+                                let formValido = true;
+
+                                //Seleciona os 3 spans após cada um dos inputs do formulário
+                                const spanUsuario = form.usuario.nextElementSibling;
+                                const spanSenha = form.senha.nextElementSibling;
+                                const spanEmail = form.email.nextElementSibling;
+
+                                //Inicia o valor dos 3 spans como ""
+                                spanUsuario.textContent = "";
+                                spanSenha.textContent = "";
+                                spanEmail.textContent = "";
+
+                                //Verifica se o input do funcionario está vazio
+                                if(form.usuario.value === "") {
+                                        //Apresenta mensagem de necessidade de preencher o campo de usuário
+                                        spanUsuario.textContent = 'O usuário deve ser preenchido';
+                                        //Muda a variável de returno do submit para false, para que não seja enviado
+                                        formValido = false;
+                                }
+
+                                if(form.senha.value === "") {
+                                        //Apresenta mensagem de necessidade de preencher o campo de senha
+                                        spanSenha.textContent = 'A senha deve ser preenchida';
+                                        //Muda a variável de returno do submit para false, para que não seja enviado
+                                        formValido = false;
+                                }
+
+                                if(form.email.value === "") {
+                                        //Apresenta mensagem de necessidade de preencher o campo de email
+                                        spanEmail.textContent = 'O email deve ser preenchido';
+                                        //Muda a variável de returno do submit para false, para que não seja enviado
+                                        formValido = false;
+                                }
+
+                                return formValido;
                         }
                 </script>
         </body>
