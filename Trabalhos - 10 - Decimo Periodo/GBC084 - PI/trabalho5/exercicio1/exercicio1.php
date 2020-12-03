@@ -14,6 +14,7 @@
                 <style>
                         .caixa {
                                 border: solid 1px grey;
+                                padding: 10px;
                                 margin: 10px;
                         }
                 </style>
@@ -34,19 +35,19 @@
 
                         echo <<<HTML
                         <div class="row my-3">
-                                <div class="col-sm-2 form-floating">
+                                <div class="col-sm-2 my-3 form-floating">
                                         <span class="caixa">$cep</span>
                                 </div>
-                                <div class="col-sm-4 form-floating">
+                                <div class="col-sm-4 my-3 form-floating">
                                         <span class="caixa">$logradouro</span>
                                 </div>
-                                <div class="col-sm-2 form-floating">
+                                <div class="col-sm-2 my-3 form-floating">
                                         <span class="caixa">$bairro</span>
                                 </div>
-                                <div class="col-sm-2 form-floating">
+                                <div class="col-sm-2 my-3 form-floating">
                                         <span class="caixa">$cidade</span>
                                 </div>
-                                <div class="col-sm-2 form-floating">
+                                <div class="col-sm-2 my-3 form-floating">
                                         <span class="caixa">$estado</span>
                                 </div>
                         </div>     
